@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Legal Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQHxP1vGn_mG8Q/profile-displayphoto-scale_400_400/B56ZhNAgbeG0Ak-/0/1753638640286?e=1756339200&v=beta&t=BS4PQdk4N9Q83EOTMpZdCZbPQujbetHI-yMqOz3pBbA" alt="Prime Legal Solutions Logo" class="logo" />
+    <h1>Prime Legal Solutions</h1>
+    <p class="subtitle">Legal Consultancy Service</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#founder">Founder</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto Slideshow</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    .slideshow {
+      position: relative;
+      width: 100%;
+      max-width: 1500px;
+      height: 600px;
+      margin: 60px auto;
+      overflow: hidden;
+    }
+
+    .slideshow img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .slideshow img.active {
+      opacity: 1;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slideshow">
+    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1500&q=80" alt="Building 1" class="active" />
+    <img src="https://media.gettyimages.com/id/891492418/video/commercial-flight-over-business-district-blue.avif?s=640x640&k=20&c=ZUcx5n1QZQ_w8pE8XBoR3l2dtX5cHH8M6TWneRv7QvM=" alt="Building 2" />
+    <img src="https://www.rivercap.co.uk/wp-content/uploads/2017/10/iStock_34968634_LARGE-scaled.jpg" alt="Building 3" />
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slideshow img");
+    let index = 0;
+
+    setInterval(() => {
+      slides[index].classList.remove("active");
+      index = (index + 1) % slides.length;
+      slides[index].classList.add("active");
+    }, 3000); // change every 3 seconds
+  </script>
+
+</body>
+</html>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Prime Legal Solutions is a remote law firm based in India, dedicated to delivering cost-effective, high-quality legal support to legal professionals, businesses and small to mid-sized law firms across the UAE, United States and Europe.
+    </p>
+    <p>
+      We specialize in a wide range of services including litigation support, legal and case law research, contract drafting (including transactional documents), and assistance with Trademarks searches and Disputes and other key legal areas. Our firm ensures precise, efficient, and confidential solutions tailored to your legal needs.
+    </p>
+    <p>
+      We provide our services at a highly competitive pricing of just $7/hour.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Litigation Support</li>
+      <li>Legal & Case Law Research</li>
+      <li>Legal Drafting (Contracts, Agreements, Pleadings, Motions, etc.)</li>
+      <li>Contarct Drafting & Negotiation</li>
+      <li>Contract Lifecycle Management</li>
+      <li>Case Briefing & Summarization</li>
+      <li>Incorporation & Licensing</li>
+      <li>Regulatory Compliances</li>
+      <li>Intellectual Property Disputes</li>
+      <li>Data Protection Laws</li>
+      <li>Trademark Search & Report Preparation</li>
+      <li>General Back-Office and Paralegal Assistance</li>
+    </ul>
+  </section>
+  <section id="founder">
+    <h2>Founder</h2>
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQHTK3Dy1NlvjQ/profile-displayphoto-scale_200_200/B56ZgAqRTCHYAc-/0/1752357740185?e=2147483647&v=beta&t=SVUzq7pFvnY4HUm1c1L0_vIATaZtSe2Fj0iGrgiF9RU" alt="Mohd Hamza Irfan" class="founder-img" />
+    <p><strong>Name:</strong> Mohd Hamza Irfan</p>
+    <p><strong>Email:</strong> <a href="mailto:mohdhamzairfan05@gmail.com">mohdhamzairfan05@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 7991354855</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mohd-hamza-irfan-395a7626b/" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> <a href="mailto:info.primelegalsolutions@gmail.com">info.primelegalsolutions@gmail.com</a></p>
+    <p><strong>Phone/WhatsApp:</strong> +91 7991354855</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prime-legal-solutions-4411a4281/" target="_blank">Prime Legal Solutions</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Prime Legal Solutions. All Rights Reserved.
+  </footer>
+</body>
+</html>
